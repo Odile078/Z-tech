@@ -1,0 +1,425 @@
+.fa-instagram-square{
+    color: blue;
+}
+html{
+    margin:0;
+    height:100%;
+    width: 100%;
+    
+    
+}
+body{background-color: black;
+    width:100%;
+    height:100%;
+   }
+.container{
+    background-color: aliceblue;
+    width:100%;
+    
+}
+#media{
+	margin-left:5px;
+	color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height:40px;
+
+
+}
+#d-contact{
+    align-items: flex-start;
+}
+#d-media{
+    align-items: flex-end;
+
+}
+#d-media a, #d-contact a{
+	color:#001a21;
+	font-size: 22px;
+	text-decoration: none;
+	transition: .3s linear;
+}
+#d-media a:hover, #d-contact a:hover{
+	color:#fc5c65;
+}
+.navigator{
+    background:#f1f1f1;
+    padding: 0 20px;
+    color:#fff;
+    height:100px;
+   
+}
+.logo1{
+    width:50px;
+    float:left;
+    padding-bottom:3px;
+    padding-top:15px;
+
+}
+.menu{
+    float:right;
+    line-height: 100px;
+    padding-bottom: 10px;
+    
+}
+.menu a{
+    color:black;
+    Text-transform:uppercase;
+    text-decoration:none;
+    padding:0 10px;
+    transition:0.4s;
+}
+
+
+
+.menu a:hover {
+    padding:10px;
+    background: rgb(135, 171, 236);
+    color: white;
+
+}
+
+
+.Intro{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+    margin-bottom:70px;
+    flex-wrap: wrap;
+    flex-flow: row-wrap;
+    
+}
+ #item > img{
+    width:420px;
+    height:400px;
+}
+.Intro:hover img{
+    transform:scale(1.05);
+	box-shadow:0 0 40px -10px rgba(0,0,0,0.24);
+}
+
+
+
+#item {
+    margin-left:10px;
+    margin-bottom: 50px;
+    height:300px;
+    flex-grow: 1;
+    width:30%;
+}
+
+.desc{
+	font-size:26px;
+	font-family: serif;
+	text-align:center;
+	padding-top:15px;
+
+}
+.desc a{
+	text-decoration:none;
+	color: darkcyan;
+}
+.desc a:hover{
+	transform:scale(1.05);
+	color:blue
+}
+
+#description > h3{
+	text-align:center;
+	font-size:40px;
+}
+
+.servicesList{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow:wrap;
+	padding: 50px;
+}
+.service{
+	width:15%;
+	border:1px solid white;
+	margin-bottom:50px;
+	transition:0.3s;
+
+}
+.service > img{
+    width:220px;
+    height:220px;
+
+}
+.stitle{
+	text-align:center;
+	padding:50px 10px;
+	color:black;
+	font-size: 20px;
+}
+.service:hover{
+	transform:scale(1.05);
+	box-shadow:0 0 40px -10px rgba(0,0,0,0.24);
+}
+
+.explanation{
+    
+    font-size:20px;
+    font-family:serif; 
+    padding-left:30px;
+    padding-right:30px;
+    
+
+}
+
+.explanation >h1{
+    text-align:center;
+    font-size:40px;
+    font-family: 'Zilla Slab', serif;
+}
+#about p:hover, #about {
+    transform:scale(1);
+    box-shadow:0 0 40px -10px rgba(0,0,0,0.24);
+}
+.more{
+
+	width:100%;
+	display:flex;
+	background: white;
+	padding: 50px;
+	box-sizing:border-box;
+	flex-direction: row;
+}
+.specifics{
+
+	flex:1;
+	background-color:white;
+	padding:30px;
+	font-size:12px;
+    font-family:'Roboto',sans-serif; 
+    
+
+        }
+#specifics >p{
+    font-size:26px;
+    font-family: serif;
+    text-align:center;
+    padding-top:35px;
+}
+#specifics > h3{
+    font-size:30px;
+}
+.details{
+	flex:1;
+	padding:30px;
+	font-size:12px;
+
+}
+.details > img:hover{
+	transform:scale(1.05);
+
+}
+#contact >p{
+	font-size: 20px;
+
+}
+
+#contact a:hover{
+	transform:scale(1.05);
+	text-decoration:none;
+	color:darkblue;
+
+}
+.book{
+    margin-right:30px;
+    margin-left:30px;
+    padding:20px;
+    background-color:rgb(216, 211, 247);
+    
+}
+
+#bform{
+    margin-left:300px;
+}
+form label{
+    width:100px;
+}
+
+table{
+    background-color:aliceblue;
+    padding-left:15px;
+
+}
+
+.first{
+    float:left;
+    width:400px;
+    padding-left:100px;
+    
+}
+.first >h1{
+    text-align: center;
+}
+.first >p{
+    font-size:20px;
+    font-family: serif;
+    padding-top:35px;
+
+}
+.contactus{
+    background-color: violet;
+    width:100%;
+}
+#contactform{
+    width:50%;
+    padding: 20px; 
+    box-sizing:border-box;
+    float: right;
+}
+form{
+    width:450px;
+    padding: 5%;
+    box-shadow: 2px 2px 5px black;
+    
+    
+}
+input[type=text],input[type=password],input[type=email],input[type=number],select{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    border: 1px solid gray;
+    box-sizing:border-box;
+    border-radius:4px;
+}
+form button{
+    width:100px;
+    background-color:red;
+    color:white;
+    padding:14px 20px; 
+    margin:8px 0;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+input[type=text]:hover,input[type=password]:hover,input[type=email]:hover,input[type=number]:hover,select:hover{
+    transform:scale(1.1);
+    color:blue;
+}
+input:focus{background-color:yellow;}
+
+input[type=submit]:hover{
+    background-color: blue;
+}
+footer{
+    clear:both;
+}
+
+
+footer{
+	background-color:#f1f1f1;
+	padding:50px 0;
+}
+
+.end{
+	max-width:1300px;
+	margin:auto;
+	padding:0 20px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap: wrap-reverse;
+}
+.logo{
+	width:50px;
+}
+.social-connect{
+	margin: 20px 0;
+}
+.social-connect a{
+	color:#001a21;
+	margin-right:25px;
+	font-size: 22px;
+	text-decoration: none;
+	transition: .3s linear;
+}
+.social-connect a:hover{
+	color:#fc5c65;
+}
+.side2{
+    margin-right:30px;
+}
+.side1{
+	font-size:26px;
+}
+.border{
+	width:100px;
+	height:4px;
+	background:#fc5c65;
+}
+.rights{
+	font-size: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*responsive queries     */
+
+@media screen and (max-width:1000px){
+	.menu{
+        display:flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        
+    }
+    .logo1{
+        margin-left:50%;
+    }
+    .Intro{
+        
+        flex-shrink: inherit;
+        
+    }
+    #item > img{
+        width:160px;
+        height:180px;
+    }
+	.description{
+		width:100%;
+	}
+	.service{
+		width:50%;
+		
+	}
+	.more{
+		flex-direction: column;
+    }
+    .details >img{
+        width:350px;
+    }
+	#contact{
+		width:100%;
+    }
+    .book{
+        width:500px;
+    }
+    #bform{
+        width:400px;
+        margin-left:1px;
+        
+
+    }
+    #contactform{
+        flex:column;
+        margin-right:250px;
+    }
+	.end{
+		max-width:600px;
+
+	}
+	.side2{
+		width:100%;
+		margin-bottom:60px;
+	}
+	.side1{
+		width:100%;
+		text-align:center;
+	}
+
+}
